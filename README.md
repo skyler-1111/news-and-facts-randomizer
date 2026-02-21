@@ -1,2 +1,10 @@
 # news-and-facts-randomizer
-Just a clean way to see what's happening globally without the bloat. Contains a fun facts generator too. Made using HTML, CSS and JS. 
+
+ A simple web news (global) and facts generator. Uses digital brutalism style.
+
+ **APIs used**
++ NewsData.Io API
++ Cureents News API
++ Useless Fun Fact API (https://uselessfacts.jsph.pl/)
+
+  The website: 
