@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>randomizer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1> //FACTS__AND__NEWS </h1>
+        <p>||..World News + Fun Facts..||</p>
+    </header>
+    <div class="marquee">
+        <span id="marquee-text">--- Welcome to the site of randomness lol</span>
+    </div>
+
+    <main>
+        <section id="newssect">
+            <h2>01_WORLD_NEWS</h2>
+            <div class="cntrolgrp">
+                <select id="countryselect">
+                    <option value="">LOADING_NODES...</option>
+                </select>
+                <button class="squaregreen" id="newsbutton">GENERATE</button>
+            </div>
+            <div class="displayarea" id="newsdisplay">
+                <p id="titletxt">Select a country to generate a news!</p>
+                <p>Pulling out some news...</p>
+            </div>
+        </section>
+
+        <section id="fact-section" style="background-color: #f0f028;">
+            <h2>02_FUN_FACTS</h2>
+            <div class="cntrolgrp">
+                <button class="squaregreen" id="factbutton"
+                    style="background: #00026e; color: #fff;">GENERATE_FACT</button>
+            </div>
+            <div class="displayarea" id="factdisplay">
+                <p id="titletxt">Facts are lwk fun</p>
+                <p>Pulling some fun facts...</p>
+            </div>
+        </section>
+    </main>
+    <br> <br> <br> <br> <br>
+    <footer>
+        (C) 2026 EXE_ARCHIVE // MADE_WITH_COFFEE //
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
