@@ -1,5 +1,5 @@
 
-// Keys for the APIs
+// Keys 
 const key1 = 'pub_365e7bad3c8944849df9bc48350c3e41';
 const key2 = 'VP8o-hxlvDg1_FjLxuQw-f8JFwyFuIzwFCC-gxu8hmitJ9Im';
 
@@ -26,8 +26,7 @@ async function getnews() {
 
         if (result.results && result.results.length > 0) {
             const story = result.results[Math.floor(Math.random() * result.results.length)];
-
-            // Bug fix: specifically check if the article actually belongs to the country 
+            
             const artCountry = story.country ? story.country[0] : 'unknown';
             if (artCountry === val || val === 'us') {
                 displaynews(story.title, story.description, "NewsData.io");
@@ -88,4 +87,5 @@ async function init() {
 
 init();
 newsBtn.addEventListener('click', getnews);
+
 factBtn.addEventListener('click', getfacts);
